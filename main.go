@@ -91,7 +91,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "9090"
+		port = "8086"
 	}
 	r.Run(":" + port)
 }
